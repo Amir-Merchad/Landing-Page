@@ -10,8 +10,6 @@ html, body {
 }
 
 body{
-    display: flex;
-    flex-direction: column;
     margin: 0;
     font-family: 'Roboto', Roboto, sans-serif;
 }
@@ -101,6 +99,7 @@ body{
 }
 
 .container{
+    flex: 1;
     height: 450px;
     display: flex;
     flex-direction: column;
