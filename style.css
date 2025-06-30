@@ -136,7 +136,7 @@ body{
 }
 
 .container1{
-    height: 200px;
+    height: 190px;
     background-color: #E6E7EB;
     display: flex;
     flex-direction: column;
