@@ -34,15 +34,12 @@ body{
 
 .header-body{
     flex: 1;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 80px;
-    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #1F2937;
     height: 400px;
+    padding: 50px 50px 80px 50px;
 }
 
 .header-text{
@@ -93,17 +90,59 @@ body{
 }
 
 .container{
+    height: 450px;
     display: flex;
-    height: 400px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.flex1-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.list1{
+    height: 150px;
+    width: 150px;
+    border-radius: 8%;
+    border: 5px solid #3882F6;
+}
+
+.flex2-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.list2{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.flex2-container{
 }
 
 .container1{
-    display: flex;
     height: 400px;
 }
 
 .footer-body{
-    display: flex;
     height: 400px;
 }
 
@@ -116,4 +155,5 @@ body{
     font-size: 24px;
     padding-left: 100px;
     padding-right: 100px;
+    color: white;
 }
