@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', Roboto, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-logo{
+    flex: 1 0 50%;
+    font-size: 24px;
+    color: #F9FAF8;
+    FONT-WEIGHT: 600;
+}
+
+.header-links{
+    justify-content: flex-end;
+    flex: auto;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header-body{
+    flex: 1;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.header-text{
+    flex: 1 0 50%;
+}
+
+.image-holder{
+    flex: 1 0 50%;
+}
+
+.image-text{
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    color: #d1d1d6;
+}
+
+.titel{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.text{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    color: #b7b8bd;
+}
+
+.header-button{
+    border-color: #3882F6;
+    margin-left: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+}
+
+.container1{
+    display: flex;
+    height: 400px;
+}
+
+.footer-body{
+    display: flex;
+    height: 400px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
